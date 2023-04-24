@@ -75,20 +75,20 @@
 						<h2 style="margin-bottom: 2em;">Research</h2>
 
 						<div class="paper gradient-shadow">
-							<div class="paper-teaser"><a href="https://ieeexplore.ieee.org/abstract/document/9869641"><img style="vertical-align:middle" src="images/publications/tokens.png"></a></div>
+							<div class="paper-teaser"><a href="https://ieeexplore.ieee.org/abstract/document/9869641"><img style="vertical-align:middle" src="images/publications/STSR.png"></a></div>
 							<div class="paper-info">
 									Spatial-Temporal Stochastic Resonance Model for Dim-Small Target Detection
 									<span id="paper-author"><b>Bingbing Dan</b>, <b>Meihui Li</b> and <b>Tao Tang</b></span>
 									<span id="paper-venue"><i>IEEE Geoscience and Remote Sensing Letters (GRSL),</i> 2022.</span>
 									<span id="paper-links">
-										[<a href="javascript:void(0);" onclick="showTextBox('upt-abstract')">abstract</a>]
+										[<a href="javascript:void(0);" onclick="showTextBox('STSR-abstract')">abstract</a>]
 										[<a href="https://ieeexplore.ieee.org/abstract/document/9869641">paper</a>]
-										[<a href="javascript:void(0);" onclick="showTextBox('upt-bibtex')">bibtex</a>]
+										[<a href="javascript:void(0);" onclick="showTextBox('STSR-bibtex')">bibtex</a>]
 									</span>
-									<div id="upt-abstract" class="paper-abstract">
+									<div id="STSR-abstract" class="paper-abstract">
 										Stochastic resonance (SR) is usually used to enhance the signal with the help of noise. Inspired by this, we find that the SR can also handle the problem of dim-small target detection under the low local signal-to-noise ratio (LSNR) situation. In this letter, we propose a novel spatial–temporal SR (STSR) model for dim-small target detection. First, we select the SR as the core model to enhance the salience of the target by the inherent strong noise. With the help of the Poisson distribution prior, we use the multiple adjacent frames as the input of the SR model, improving the LSNR of the resonance state through the temporal accumulation of photons. Then, we introduce the total variation (TV) regularization in the variational framework to remove the false alarm points by spatial smoothing, while preserving the role of noise in SR. Finally, we customize an optimization process based on the alternating direction method of multiplier (ADMM) to solve the STSR variational minimization problem. Both the qualitative and quantitative experiments on real visible and infrared image sequences have demonstrated the superiority of the proposed model, especially in the low LSNR situation below 2 dB.
 									</div>
-									<div id="upt-bibtex", class="paper-bibtex">
+									<div id="STSR-bibtex", class="paper-bibtex">
 										@article{dan2022spatial, <br>
   										&nbsp;&nbsp;title={Spatial--Temporal Stochastic Resonance Model for Dim-Small Target Detection}, <br>
     										&nbsp;&nbsp;author={Dan, Bingbing and Li, Meihui and Tang, Tao and Qi, Xiaoping and Zhu, Zijian and Ouyang, Yimin}, <br>
@@ -102,20 +102,50 @@
 							</div>
 						</div>
 						<div class="paper gradient-shadow">
-							<div class="paper-teaser"><a href="https://opg.optica.org/ao/abstract.cfm?uri=ao-61-22-6443"><img src="images/publications/scg.jpg"></a></div>
+							<div class="paper-teaser"><a href="https://www.mdpi.com/2072-4292/15/9/2251"><img src="images/publications/DEQ.jpg"></a></div>
+							<div class="paper-info">
+									An Autonomous Global Star Identification Algorithm Based on the Fast MST Index and Robust Multi-Order CCA Pattern
+									<span id="paper-author"><b>Zijian Zhu</b>, <b>Yuebo Ma</b> and <b>Bingbing Dan</b></span>
+									<span id="paper-venue"><i>Remote Sensing</i>, 2023.</span>
+									<span id="paper-links">
+										[<a href="javascript:void(0);" onclick="showTextBox('DEQ-abstract')">abstract</a>]
+										[<a href="https://www.mdpi.com/2072-4292/15/9/2251">paper</a>]
+										[<a href="javascript:void(0);" onclick="showTextBox('DEQ-bibtex')">bibtex</a>]
+									</span>
+									<div id="DEQ-abstract" class="paper-abstract">
+										Star identification plays a key role in spacecraft attitude measurement. Currently, most star identification algorithms tend to perform well only in a scene without noise and are highly sensitive to noise. To solve this problem, this paper proposes a star identification algorithm based on the maximum spanning tree (MST) index and multi-order continuous cycle angle (CCA) intended for the lost-in-space mode. In addition, a neighboring star selection method named dynamic eight-quadrant (DEQ) is developed. First, the DEQ method is used to select high-confidence neighboring stars for the main star. Then, the star image is regarded as a graph, and the Prim algorithm is employed to construct the MST pattern for each guide star, which is then combined with the K vector index to perform the main star candidate search. Finally, the Jackard similarity voting for the multi-order CCA of the main star is used to identify the main star, and the global neighboring star identification is conducted by the multi-order CCA of neighboring stars. The simulated and real star images test results show that compared with five mainstream algorithms, when the position noise is 1 pixel, the number of false stars is five, the magnitude noise is 0.5, and the identification accuracy of the proposed algorithm is higher than 98.5%. Therefore, the proposed algorithm has excellent anti-noise ability in comparison to other algorithms.
+									</div>
+									<div id="DEQ-bibtex", class="paper-bibtex">
+										@Article{rs15092251, <br>
+											&nbsp;&nbsp;AUTHOR = {Zhu, Zijian and Ma, Yuebo and Dan, Bingbing and Liu, Enhai and Zhu, Zifa and Yi, Jinhui and Tang, Yuping and Zhao, Rujin}, <br>
+											&nbsp;&nbsp;title = {An Autonomous Global Star Identification Algorithm Based on the Fast MST Index and Robust Multi-Order CCA Pattern}, <br>
+											&nbsp;&nbsp;JOURNAL = {Remote Sensing}, <br>
+											&nbsp;&nbsp;VOLUME = {15}, <br>
+											&nbsp;&nbsp;YEAR = {2023}, <br>
+											&nbsp;&nbsp;NUMBER = {9}, <br>
+											&nbsp;&nbsp;ARTICLE-NUMBER = {2251}, <br>
+											&nbsp;&nbsp;URL = {https://www.mdpi.com/2072-4292/15/9/2251}, <br>
+											&nbsp;&nbsp;ISSN = {2072-4292}, <br>
+											&nbsp;&nbsp;DOI = {10.3390/rs15092251} <br>
+											}
+									</div>
+							</div>
+						</div>
+						<div class="paper gradient-shadow">
+							<div class="paper-teaser"><a href="https://opg.optica.org/ao/abstract.cfm?uri=ao-61-22-6443"><img src="images/publications/ISSM-ELM.jpg"></a></div>
 							<div class="paper-info">
 									ISSM-ELM:a guide star selection for a small-FOV star sensor based on the improved SSM and extreme learning machine
 									<span id="paper-author"><b>Zijian Zhu</b>, <b>Yuebo Ma</b> and <b>Bingbing Dan</b></span>
 									<span id="paper-venue"><i>Applied Optics</i>, 2022.</span>
 									<span id="paper-links">
-										[<a href="javascript:void(0);" onclick="showTextBox('scg-abstract')">abstract</a>]
+										[<a href="javascript:void(0);" onclick="showTextBox('ISSM-ELM-abstract')">abstract</a>]
 										[<a href="https://opg.optica.org/ao/abstract.cfm?uri=ao-61-22-6443">paper</a>]
-										[<a href="javascript:void(0);" onclick="showTextBox('scg-bibtex')">bibtex</a>]
+										[<a href="javascript:void(0);" onclick="showTextBox('ISSM-ELM-bibtex')">bibtex</a>]
 									</span>
-									<div id="scg-abstract" class="paper-abstract">
+									<div id="ISSM-ELM-abstract" class="paper-abstract">
 										The construction of a guide star catalog is crucial for a star sensor to achieve accurate star map recognition and attitude determination. At present, the methods of a guide star catalog for a large field of view (FOV) star sensor have been relatively mature. However, for a small-FOV star sensor, there are still certain problems, such as a large storage capacity of a guide star catalog, uneven distribution of stars, and easy occurrence of voids. To address these problems, we propose a construction method of a small-FOV star sensor guide star catalog based on the combination of the improved spherical spiral method (ISSM) and extreme learning machine (ELM) named the ISSM-ELM. First, a spiral reference point is used as an optical axis pointing of the star sensor, and the guide stars are preliminarily screened based on the star-diagonal distance between the star and the reference point, and the star-density and magnitude characteristics of the guide star. Then the ELM is used to supplement the guide star empty sky area to construct an integrity guide star catalog. The experimental results demonstrate that the proposed method can reduce the storage capacity of the guide star catalog and improve its uniformity, integrity, and average brightness.
 									</div>
-									<div id="scg-bibtex", class="paper-bibtex">
+									<div id="ISSM-ELM-bibtex", class="paper-bibtex">
 										@article{zhu2022issm, <br>
   										&nbsp;&nbsp;title={ISSM-ELM--a guide star selection for a small-FOV star sensor based on the improved SSM and extreme learning machine}, <br>
   										&nbsp;&nbsp;author={Zhu, ZiJian and Ma, YueBo and Dan, BingBing and Zhao, RuJin and Liu, EnHai and Zhu, ZiFa}, <br>
