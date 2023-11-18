@@ -270,10 +270,11 @@ Start of customisations
 
 .paper-teaser {
 	width: 40%;
-	text-align: left;
-	vertical-align: top;
-	position: relative;
-}
+	display: flex; /* 使用 Flexbox */
+	align-items: center; /* 垂直居中子元素 */
+	justify-content: center; /* 水平居中图片 */
+	height: 100%; /* 为了使垂直居中生效，确保.teaser有一个定义的高度 */
+	}
 
 .paper-teaser img {
 	width: 90%;
