@@ -40,12 +40,17 @@
 							</header>
 							<p><b>Educational Experience</b></p>
      							<ul>
-        							<li>
+							<li>
 								Institute of Optics and Electronics, University of Chinese Academy of Sciences (IOE, UCAS)<br>
 								Ph.D. in Signal and Information Processing<br>
 								Sept. 2020 - Present<br>
 							</li>
-     							<li>
+        					<li>
+								Australian National University (ANU)<br>
+								Visiting Ph.D.<br>
+								Oct. 2023 - Present<br>
+							</li>
+     						<li>
 								Central South University of Forestry and Technology (CSUFT)<br>
 								BS in Communication Engineering<br>
 								Sept. 2016 - Jun. 2020<br>
@@ -80,7 +85,23 @@
 				<div class="container">
 					<header>
 						<h2 style="margin-bottom: 2em;">Research</h2>
-
+						<div class="paper gradient-shadow">
+							<div class="paper-teaser"><img style="vertical-align:middle" src="images/publications/DW-SSD.png"></a></div>
+							<div class="paper-info">
+									Dynamic Weight Guided Smooth-Sparse Decomposition for Small Target Detection against Strong Vignetting Background
+									<span id="paper-author"><b>Bingbing Dan</b>, <b>Zijian Zhu</b>, <b>Meihui Li</b> and <b>Tao Tang</b></span>
+									<span id="paper-venue"><i>IEEE Transactions on Instrumentation and Measurement (TIM),</i> 2022.</span>
+									<span id="paper-links">
+										[<a href="javascript:void(0);" onclick="showTextBox('DW-SSD-abstract')">abstract</a>]
+										[<a href="javascript:void(0);">paper</a>]
+										[<a href="https://github.com/D-IceIce/DW-SSD">code</a>]
+										[<a href="javascript:void(0);" onclick="showTextBox('DW-SSD-bibtex')">bibtex</a>]
+									</span>
+									<div id="DW-SSD-abstract" class="paper-abstract">
+										Small target detection against strong vignetting background poses two major challenges: the submergence of the target in high brightness background and the difficult separability between dense noise and weak target. These challenges have not been adequately addressed by existing methods, which heavily rely on the low-rank prior of background. In this paper, our focus shifts to the smoothness of background and propose a dynamic weight guided smooth-sparse decomposition model (DW-SSD). First, we adopt a surface-fitting perspective to reconstruct the smooth vignetting, where B-spline is introduced as the basis, and total variation (TV) is utilized to regularize the coefficients of the B-spline basis. This term provides a flexible description for different background local regions with low computation cost, effectively suppressing the high brightness vignetting and facilitating the emergence of target. Second, a dynamic weight based on spatial-temporal prior characteristic is added to the target component, where the differences in spatial contrast and temporal profile are jointly considered to guide a precise separation of the target from dense noise. Finally, a customized solution is designed based on the alternating direction multiplier method (ADMM) to separate small targets from strong vignetting rapidly and precisely. Comprehensive experiments on five real sequences demonstrate that DW-SSD method effectively overcomes the challenges posed by strong vignetting and performs well in real-time small target detection.
+									</div>
+									</div>
+						</div>
 						<div class="paper gradient-shadow">
 							<div class="paper-teaser"><a href="https://ieeexplore.ieee.org/abstract/document/9869641"><img style="vertical-align:middle" src="images/publications/STSR.png"></a></div>
 							<div class="paper-info">

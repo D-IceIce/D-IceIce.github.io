@@ -239,12 +239,13 @@ Start of customisations
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
-	align-items: stretch;
-	justify-content: center;
+	align-items: center; /* 修改这里使得子元素垂直居中 */
+	justify-content: center; /* 保留这个以使得子元素水平居中 */
 	background-color: #FFFFFF;
 	padding: 1.5em 1em 1em 2em;
 	margin-bottom: 2em;
-}
+  }
+  
 
 	@media screen and (max-width: 1280px) {
 
@@ -285,6 +286,7 @@ Start of customisations
 .paper-teaser:hover img {
 	transform: scale(1.05);
 }
+	
 
 .paper-info {
 	text-align: left;
