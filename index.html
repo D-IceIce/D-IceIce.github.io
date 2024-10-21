@@ -87,6 +87,34 @@
 					<header>
 						<h2 style="margin-bottom: 2em;">Research</h2>
 						<div class="paper gradient-shadow">
+							<div class="paper-teaser"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0030399224013252"></a><img style="vertical-align:middle" src="images/publications/Chessboard.png"></a></div>
+							<div class="paper-info">
+								Infrared dim-small target detection via chessboard topology
+									<span id="paper-author"><b>Bingbing Dan</b>, <b>Zijian Zhu</b>, <b>Meihui Li</b> and <b>Tao Tang</b></span>
+									<span id="paper-venue"><i>Optics & Laser Technology,</i> 2024.</span>
+									<span id="paper-links">
+										[<a href="javascript:void(0);" onclick="showTextBox('Chessboard-abstract')">abstract</a>]
+										[<a href="https://www.sciencedirect.com/science/article/abs/pii/S0030399224013252">paper</a>]
+										[<a href="https://github.com/D-IceIce/IRSTD-ChessboardTopology">code</a>]
+										[<a href="javascript:void(0);" onclick="showTextBox('Chessboard-bibtex')">bibtex</a>]
+									</span>
+									<div id="Chessboard-abstract" class="paper-abstract">
+										In infrared dim-small target detection, large background group and small clutter group are the key components. However, existing methods usually consider the detection progress in the original image space, which limits the separability of the target from the two components and leads to missed detection and false alarms. In response to this issue, we propose an innovative infrared dim-small target detection method via chessboard topology, which mines potential differences, such as distribution density and scale trends in the topological space. Specifically, the core of our approach lies in the construction of the chessboard topology space, where each ”point set” serves as a basic unit that is a mapping result of pixels in the original image space. The chessboard’s horizontal divisions are based on the scale space, where pixels undergo multiscale transformations to emphasize scale invariance at smaller scales, resulting in rows that capture scale variation trends. Meanwhile, the vertical divisions are based on the gray space, with pixels rearranged to accentuate gray level variations, thereby forming columns that highlight distribution density disparities. To separate the target pixels, we design two complementary strategies for pixel scoring within the chessboard topological space. The first, scoreS, evaluates pixel consistency across multiple scales, aiming to eliminate inconsistent pixels that often represent false positives. The second, scoreL, focuses on measuring the density level of point sets to enhance target visibility by filtering out pixels within less dense point sets. The final detection results are derived from the dot product of these two scores, ensuring a robust differentiation of small targets from background and noise. Comprehensive experiments demonstrate that the proposed method achieves better performance than baselines in six real infrared dim-small target scenarios.
+									</div>
+									<div id="Chessboard-bibtex", class="paper-bibtex">
+										@article{dan2025infrared,<br>
+											title={Infrared dim-small target detection via chessboard topology},<br>
+											author={Dan, Bingbing and Zhu, Zijian and Wei, Yuxing and Liu, Dongxu and Li, Meihui and Tang, Tao},<br>
+											journal={Optics \& Laser Technology},<br>
+											volume={181},<br>
+											pages={111867},<br>
+											year={2025},<br>
+											publisher={Elsevier}<br>
+										  }
+									</div>
+									</div>
+						</div>
+						<div class="paper gradient-shadow">
 							<div class="paper-teaser"><a href="https://ieeexplore.ieee.org/document/10352345"></a><img style="vertical-align:middle" src="images/publications/DW-SSD.png"></a></div>
 							<div class="paper-info">
 									Dynamic Weight Guided Smooth-Sparse Decomposition for Small Target Detection against Strong Vignetting Background
