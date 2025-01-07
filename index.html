@@ -17,7 +17,7 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="#top">Home</a></li>
-					<li><a href="#work">Research</a></li>
+					<li><a href="#work">Publication</a></li>
 				</ul>
 			</nav>
 
@@ -48,7 +48,7 @@
         					<li>
 								Australian National University (ANU)<br>
 								Visiting Ph.D.<br>
-								Oct. 2023 - Present<br>
+								Oct. 2023 - Oct. 2024<br>
 							</li>
      						<li>
 								Central South University of Forestry and Technology (CSUFT)<br>
@@ -59,9 +59,9 @@
 
 							<p><b>Research Interest</b></p>
 							<ul>
-        							<li>Small Target Detection</li>
-     							<li>Image Processing</li>
-      							</ul>
+        						<li>Small Target Detection</li>
+     							<li>Segmentation</li>
+      						</ul>
 
 							<p><b>Professional Service</b></p>
 							<ul>
@@ -85,7 +85,32 @@
 			<article id="work" class="wrapper style2">
 				<div class="container">
 					<header>
-						<h2 style="margin-bottom: 2em;">Research</h2>
+						<h2 style="margin-bottom: 2em;">Publication</h2>
+						<div class="paper gradient-shadow">
+							<div class="paper-teaser"><a href="https://arxiv.org/abs/2408.04823"></a><img style="vertical-align:middle" src="images/publications/Oneshot.png"></a></div>
+							<div class="paper-info">
+								One Shot is Enough for Sequential Infrared Small Target Segmentation
+									<span id="paper-author"><b>Bingbing Dan</b>, <b>Meihui Li</b>, <b>Tao Tang</b> and <b>Jing Zhang</b></span>
+									<span id="paper-venue"><i>ICASSP,</i> 2025.</span>
+									<span id="paper-links">
+										[<a href="javascript:void(0);" onclick="showTextBox('Oneshot-abstract')">abstract</a>]
+										[<a href="https://arxiv.org/abs/2408.04823">paper</a>]
+										[<a href="https://github.com/D-IceIce/one-shot-IRSTS">code</a>]
+										[<a href="javascript:void(0);" onclick="showTextBox('Oneshot-bibtex')">bibtex</a>]
+									</span>
+									<div id="Oneshot-abstract" class="paper-abstract">
+										Infrared small target sequences exhibit strong similarities between frames and contain rich contextual information, which motivates us to achieve sequential infrared small target segmentation (IRSTS) with minimal data. Inspired by the success of Segment Anything Model (SAM) across various downstream tasks, we propose a one-shot and training-free method that perfectly adapts SAM's zero-shot generalization capability to sequential IRSTS. Specifically, we first obtain a confidence map through local feature matching (LFM). The highest point in the confidence map is used as the prompt to replace the manual prompt. Then, to address the over-segmentation issue caused by the domain gap, we design the point prompt-centric focusing (PPCF) module. Subsequently, to prevent miss and false detections, we introduce the triple-level ensemble (TLE) module to produce the final mask. Experiments demonstrate that our method requires only one shot to achieve comparable performance to state-of-the-art IRSTS methods and significantly outperforms other one-shot segmentation methods. Moreover, ablation studies confirm the robustness of our method in the type of annotations and the selection of reference images.
+									</div>
+									<div id="Oneshot-bibtex", class="paper-bibtex">
+										@article{dan2024one,<br>
+											title={One Shot is Enough for Sequential Infrared Small Target Segmentation},<br>
+											author={Dan, Bingbing and Li, Meihui and Tang, Tao and Zhang, Jing},<br>
+											journal={arXiv preprint arXiv:2408.04823},<br>
+											year={2024}<br>
+										  }
+									</div>
+									</div>
+						</div>
 						<div class="paper gradient-shadow">
 							<div class="paper-teaser"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0030399224013252"></a><img style="vertical-align:middle" src="images/publications/Chessboard.png"></a></div>
 							<div class="paper-info">
